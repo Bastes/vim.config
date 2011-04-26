@@ -15,5 +15,8 @@ augroup END
 " a colorscheme that's easier on the eyes especially using gvim
 colorscheme desert
 
+" quick command for Ack
+nnoremap <C-F> :<C-u>Ack 
+
 " quick command for FuzzyFinder FufFile in any directory below the project's
 nnoremap <C-t> :<C-u>FufFile **/<CR>
