@@ -1,5 +1,5 @@
-Installation via git :
-git clone git@github.com:Bastes/vim.config.git ~/.vim && ln ~/.vim/.vimrc ~/.vimrc && ln ~/.vim/.ackrc ~/.ackrc && cd ~/.vim && git submodule init && git submodule update
+Installation (via git) :
+$ bash  < <(curl -s https://github.com/Bastes/vim.config/raw/master/install.bash)
 
 Update via git :
-cd ~/.vim && git pull origin master && git submodule init && git submodule update
+$ bash ~/.vim/upgrade.bash
