@@ -20,3 +20,7 @@ nnoremap <C-F> :<C-u>Ack
 
 " quick command for FuzzyFinder FufFile in any directory below the project's
 nnoremap <C-t> :<C-u>FufFile **/<CR>
+
+" show trailing spaces
+set list
+set lcs:trail:X
