@@ -1,5 +1,7 @@
 " pathogen (plugins go in their own bundle)
-call pathogen#runtime_append_all_bundles() 
+filetype off
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
 
 " allows plugin indentation, file recognition, mouse in terminal, etc.
 set nocompatible
