@@ -26,3 +26,6 @@ nnoremap <C-t> :<C-u>FufFile **/<CR>
 " show trailing spaces
 set list
 set lcs:trail:X
+
+" indent coffeescript with 2 spaces
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
