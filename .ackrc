@@ -2,3 +2,5 @@
 --type-add=ruby=.haml,.rake,.rsel,.feature,.php,.sass
 # adds rails types to html
 --type-add=html=.haml,.html.erb,.rhtml
+# remove test/coverage from searched directories
+--ignore-dir=coverage
