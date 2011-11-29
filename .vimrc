@@ -27,5 +27,8 @@ nnoremap <C-t> :<C-u>FufFile **/<CR>
 set list
 set lcs:trail:X
 
+" highlight searched matches
+set hlsearch
+
 " indent coffeescript with 2 spaces
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
