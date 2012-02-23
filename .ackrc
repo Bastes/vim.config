@@ -2,5 +2,9 @@
 --type-add=ruby=.haml,.rake,.rsel,.feature,.php,.sass
 # adds rails types to html
 --type-add=html=.haml,.html.erb,.rhtml
+# adds coffeescript
+--type-set=coffee=.coffee
+# adds sass
+--type-set=sass=.sass,.scss
 # remove test/coverage from searched directories
 --ignore-dir=coverage
