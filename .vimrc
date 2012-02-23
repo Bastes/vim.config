@@ -34,3 +34,6 @@ set hlsearch
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 au BufNewFile,BufReadPost *.js setl shiftwidth=2 expandtab
 
+" folds using the syntax specifics
+set foldmethod=syntax
+set foldlevelstart=99
