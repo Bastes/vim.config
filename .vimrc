@@ -32,3 +32,5 @@ set hlsearch
 
 " indent coffeescript with 2 spaces
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
+au BufNewFile,BufReadPost *.js setl shiftwidth=2 expandtab
+
