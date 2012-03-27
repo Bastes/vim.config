@@ -24,6 +24,7 @@ nnoremap <C-F> :<C-u>Ack
 nnoremap <C-t> :<C-u>FufFile **/<CR>
 
 " show trailing spaces
+set listchars=trail:◃,nbsp:•
 set list
 set lcs:trail:X
 
