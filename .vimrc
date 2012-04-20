@@ -32,8 +32,13 @@ set lcs:trail:X
 set hlsearch
 
 " indent coffeescript with 2 spaces
-au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
-au BufNewFile,BufReadPost *.js setl shiftwidth=2 expandtab
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 tabstop=2 expandtab
+au BufNewFile,BufReadPost *.js     setl shiftwidth=2 tabstop=2 expandtab
+au BufNewFile,BufReadPost *.json   setl shiftwidth=2 tabstop=2 expandtab
+au BufNewFile,BufReadPost *.html   setl shiftwidth=2 tabstop=2 expandtab
+
+au BufNewFile,BufRead     *.md     set  ft=md
+au BufNewFile,BufReadPost *.md     setl shiftwidth=2 tabstop=2 expandtab
 
 " folds using the syntax specifics
 set foldmethod=syntax
