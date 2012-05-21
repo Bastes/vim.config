@@ -6,5 +6,7 @@
 --type-set=coffee=.coffee
 # adds sass
 --type-set=sass=.sass,.scss
+# adds clojure
+--type-set=clojure=.clj
 # remove test/coverage from searched directories
 --ignore-dir=coverage
