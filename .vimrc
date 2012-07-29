@@ -3,6 +3,7 @@ filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
+
 " allows plugin indentation, file recognition, mouse in terminal, etc.
 set nocompatible
 syntax on
@@ -19,9 +20,6 @@ colorscheme desert
 
 " quick command for Ack
 nnoremap <C-F> :<C-u>Ack 
-
-" quick command for FuzzyFinder FufFile in any directory below the project's
-nnoremap <C-t> :<C-u>FufFile **/<CR>
 
 " show trailing spaces
 set listchars=trail:◃,nbsp:•
@@ -43,3 +41,9 @@ au BufNewFile,BufReadPost *.md     setl shiftwidth=2 tabstop=2 expandtab
 " folds using the syntax specifics
 set foldmethod=syntax
 set foldlevelstart=99
+
+" ctrl-p ignores useless directories
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$\|vendor/bundle$',
+  \ 'file': '\.exe$\|\.so$\|\.dat$'
+  \ }
