@@ -45,5 +45,5 @@ set foldlevelstart=99
 " ctrl-p ignores useless directories
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$\|vendor/bundle$',
-  \ 'file': '\.exe$\|\.so$\|\.dat$'
+  \ 'file': '\.exe$\|\.so$\|\.dat$\|\.gitkeep$\|\.rspec'
   \ }
