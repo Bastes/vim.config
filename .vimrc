@@ -18,13 +18,13 @@ augroup END
 " a colorscheme that's easier on the eyes especially using gvim
 colorscheme desert
 
-" quick command for Ack
-nnoremap <C-F> :<C-u>Ack 
-
 " show trailing spaces
 set listchars=trail:◃,nbsp:•
 set list
 set lcs:trail:X
+
+" shows line numbers
+set number
 
 " highlight searched matches
 set hlsearch
