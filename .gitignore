@@ -1,1 +1,6 @@
 .netrwhist
+.*.sw[a-z]
+.rbenv-gemsets
+.rbenv-version
+.yardoc
+vendor/bundle
