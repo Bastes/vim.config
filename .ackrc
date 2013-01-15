@@ -10,3 +10,4 @@
 --type-set=clojure=.clj
 # remove test/coverage from searched directories
 --ignore-dir=coverage
+--ignore-dir=vendor/bundle
