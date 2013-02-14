@@ -37,3 +37,6 @@
 [submodule "bundle/rename.vim"]
 	path = bundle/rename.vim
 	url = git://github.com/danro/rename.vim.git
+[submodule "bundle/handlebars"]
+	path = bundle/handlebars
+	url = git://github.com/nono/vim-handlebars.git
