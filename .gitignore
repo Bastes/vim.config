@@ -1,6 +1,12 @@
 .netrwhist
 .*.sw[a-z]
-.rbenv-gemsets
-.rbenv-version
-.yardoc
+.rvmrc
+.rbenv-*
+*~
+.DS_Store
+coverage
+.sass-cache
 vendor/bundle
+.bundle
+.ruby-version
+.yardoc

@@ -34,6 +34,7 @@ au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 tabstop=2 expandtab
 au BufNewFile,BufReadPost *.js     setl shiftwidth=2 tabstop=2 expandtab
 au BufNewFile,BufReadPost *.json   setl shiftwidth=2 tabstop=2 expandtab
 au BufNewFile,BufReadPost *.html   setl shiftwidth=2 tabstop=2 expandtab
+au BufNewFile,BufReadPost *.hbs    setl shiftwidth=2 tabstop=2 expandtab
 
 au BufNewFile,BufRead     *.md     set  ft=md
 au BufNewFile,BufReadPost *.md     setl shiftwidth=2 tabstop=2 expandtab
