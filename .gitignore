@@ -10,3 +10,5 @@ vendor/bundle
 .bundle
 .ruby-version
 .yardoc
+.*.s3cfg
+.s3cfg
