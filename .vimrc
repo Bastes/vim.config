@@ -45,8 +45,6 @@ au BufNewFile,BufReadPost *.md     setl shiftwidth=2 tabstop=2 expandtab
 set foldmethod=syntax
 set foldlevelstart=99
 
-" ctrl-p ignores useless directories
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$\|vendor/bundle$\|tmp$\|log$',
-  \ 'file': '\.exe$\|\.so$\|\.dat$\|\.gitkeep$\|\.rspec'
-  \ }
+set wildignore=*/tmp/*,*/log/*,*/bin/*,*/.yardoc/*,*/coverage/*,*/vendor/bundle/*,*.rspec
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.gitkeep
+set wildignore+=*.exe,*.so,*.dat

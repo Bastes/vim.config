@@ -11,3 +11,7 @@
 # remove test/coverage from searched directories
 --ignore-dir=coverage
 --ignore-dir=vendor/bundle
+--ignore-dir=tmp
+--ignore-dir=log
+--ignore-dir=app/assets/images
+--ignore-dir=bin
