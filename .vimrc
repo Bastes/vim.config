@@ -45,6 +45,6 @@ au BufNewFile,BufReadPost *.md     setl shiftwidth=2 tabstop=2 expandtab
 set foldmethod=syntax
 set foldlevelstart=99
 
-set wildignore=*/tmp/*,*/log/*,*/bin/*,*/.yardoc/*,*/coverage/*,*/vendor/bundle/*,*.rspec
+set wildignore=*/tmp/*,*/log/*,*/bin/*,*/.yardoc/*,*/coverage/*,*/vendor/bundle/*,*.rspec,*/public/uploads/*
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.gitkeep
 set wildignore+=*.exe,*.so,*.dat
