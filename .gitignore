@@ -12,3 +12,6 @@ vendor/bundle
 .yardoc
 .*.s3cfg
 .s3cfg
+
+# only for rbenv custom hooks
+/rbenv.d
