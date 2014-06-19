@@ -43,3 +43,6 @@
 [submodule "bundle/vim-emblem"]
 	path = bundle/vim-emblem
 	url = git://github.com/darthdeus/vim-emblem.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
