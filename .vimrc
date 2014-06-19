@@ -46,3 +46,9 @@ set foldlevelstart=99
 set wildignore=*/tmp/*,*/log/*,*/bin/*,*/.yardoc/*,*/coverage/*,*/vendor/bundle/*,*.rspec,*/public/uploads/*
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.gitkeep
 set wildignore+=*.exe,*.so,*.dat
+
+" RSpec.vim mappings
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
