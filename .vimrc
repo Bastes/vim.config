@@ -1,3 +1,6 @@
+" Syntastic doesn't like fish
+set shell=/bin/sh
+
 " pathogen (plugins go in their own bundle)
 filetype off
 call pathogen#infect()
@@ -27,7 +30,8 @@ set number
 " highlight searched matches
 set hlsearch
 
-" indent coffeescript with 2 spaces
+" indent with 2 spaces
+au BufNewFile,BufReadPost *.fish   setl shiftwidth=2 tabstop=2 expandtab
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 tabstop=2 expandtab
 au BufNewFile,BufReadPost *.sass   setl shiftwidth=2 tabstop=2 expandtab
 au BufNewFile,BufReadPost *.scss   setl shiftwidth=2 tabstop=2 expandtab
