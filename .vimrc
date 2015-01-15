@@ -51,6 +51,9 @@ set wildignore=*/tmp/*,*/log/*,*/bin/*,*/.yardoc/*,*/coverage/*,*/vendor/bundle/
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*.gitkeep
 set wildignore+=*.exe,*.so,*.dat
 
+" who needs Ex mode anyways?
+nnoremap Q <nop>
+
 " RSpec.vim mappings
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
